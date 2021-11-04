@@ -2,6 +2,16 @@
 
 //  - Create a variable named `character` using `let` assign a value of empty object.
 
+let character = {
+  characterName: "Arya",
+  characterAge: 20,
+  "sur name": "Stark",
+  title: "Lady of Winterfell",
+  greet: alert(`I am ${characterName} ${"sur name"} and my title is ${title}`),
+  isFemale: true,
+  iaAdult: true,
+};
+
 //  - Go to this [Arya Stark](https://awoiaf.westeros.org/index.php/Arya_Stark)
 
 //  Re-assign the value of `character` variable to and object with the key `characterName` and value of "Arya"
@@ -30,7 +40,7 @@ let age = 20;
 
 // - Add a new key with the name stored in variable `keyName` defined below i.e `playedBy` (use [] for computed property) and the value of "Maisie Williams"
 
-let keyName = 'playedBy';
+let keyName = "playedBy";
 
 // - Using `alert` alert the value stored in key you added above `keyName` use the variable name to access
 
