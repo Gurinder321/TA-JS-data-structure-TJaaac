@@ -19,8 +19,16 @@ Hint: (Structure of got variable)
 */
 
 // 1. Log the value of key "houses"
+<<<<<<< HEAD
 console.log(got.houses);
+=======
+
+console.log(got.houses);
+
+>>>>>>> 39aa91c64a82ea8ce3ed7ccdc635680efb197413
 // 2. Log the length of the "houses" key
+console.log(got.houses.length);
+
 console.log(got.houses.length);
 
 // 3. Log the name of all houses in got one by one
