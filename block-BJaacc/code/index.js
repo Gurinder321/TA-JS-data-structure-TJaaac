@@ -42,7 +42,7 @@ students.length();
 
 Yes. The main difference is scoping rules. Variables declared by car keyword are scoped to the immidiate function body (hence the function scope) while let variables are scoped to the immediate enclosing block denoted by { } (hence the block scope)
 
-// 12. Delete the `isAdult` property from the object `students`. Also, print the object before or after deleting the property
+// 12. Delete the `isAdult` property from the object `students`. Also, print the object before or after deleting the property.
 console.log(students.isAdult);
 delete students.isAdult
 console.log(students.isAdult);
